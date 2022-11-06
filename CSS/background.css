@@ -1,0 +1,33 @@
+html{/*we target html file coz everything is inside that*/
+    
+    color:blue;
+    /*background-color:rgb(37, 126, 204);*/
+    
+    /*
+    background: linear-gradient(grey,black);
+    
+    Above line will only make gradient till there is a text and it starts repeating
+    below code is to make it non repeating
+
+    background-repeat : no-repeat;      stops with one set of gradient
+    background-position: center;        position is in centre of page
+    background-size: cover;             changes with change of width of page
+    background-attachment: fixed;       background will scroll with rest of the page
+    */
+
+    background-image: url("bck2.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    background:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet)
+}
+#mytext{
+    /*background:linear-gradient(grey,white);*/
+    padding:10px;
+    border-style:inset;
+    border-width:5px;
+
+}

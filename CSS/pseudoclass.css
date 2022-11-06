@@ -1,0 +1,46 @@
+a:link{
+    /*a is the tag : for pseudoclass*/
+    color:blue;
+}
+a:visited{
+    color:brown;
+}
+
+button:hover{/*when u hover*/
+    background-color: #ff4529;
+    color:white;
+}
+
+button:active{
+    /*when u click*/
+    background-color: green;
+}
+/*
+li:first-child{
+    background-color: aqua;
+
+}
+li:last-child{
+    background-color: rgb(132, 22, 234);
+}
+
+
+li:nth-child(5){
+    background-color: bisque;
+}
+
+
+li:nth-child(odd){
+    background-color: bisque;
+}
+
+*/
+
+li:nth-child(3n+1){
+    /*an+b = a is cycle size
+    n=counter(starts at 0
+    b=offset value*/
+    background-image: linear-gradient(to right,yellow,grey);
+    border:1px solid;
+}
+

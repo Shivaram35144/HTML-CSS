@@ -1,0 +1,35 @@
+p{
+    padding: 10px;/*pixels*/
+        /*Padding: space between text and border*/
+    /*eventhough i put 2 diff border style the most recently put text will be taken by the html file*/
+    border-style : solid;
+    border-style : dashed;
+    border-style : dotted;
+    border-style : double;
+    border-style : ridge;/*looks like a shadow around the border*/
+    border-style : groove;
+    border-style : inset;/*text goes inside the webpage*/
+    border-style : outset;/*text comes out of page*/
+
+    border-width : 3px;/*for all sides of border*/
+
+    /* border-width : 1px 2px 3px 4px; 1-top 2-right 3-bottom 4-lest*/
+
+    border-color : #00FF00;
+
+    border-radius: 5px;/*smooth out the corners*/
+
+}
+
+h1{
+    border-bottom-style: dotted;
+    border-left-style:solid;
+    /*also use border-top left right*/
+    border-left-width: 10px;
+    /*also color and other stuff to individual side*/
+}
+
+body{
+    background-color: black;
+    color:white;
+}

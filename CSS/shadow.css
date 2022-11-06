@@ -1,0 +1,25 @@
+h1{
+    border: 1px solid;
+    width : 400px;
+    padding :25px;
+    background: black;
+    color:aliceblue;
+
+    /*shadow attributes
+    horizontal disp px
+    vertical px
+    blur px
+    color name,rgb,hex
+    */
+
+    text-shadow: 5px 5px 3px yellowgreen;
+
+    /*we can also make 2 shadows in a single command:display: 
+
+    text-shadow: 5px 5px 3px yellowgreen, 5px 10px 5px red;*/
+
+    
+
+
+    box-shadow:5px 5px 3px #666666;
+}

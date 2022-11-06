@@ -1,0 +1,49 @@
+/*p{
+    border : 1px solid;
+    width: 250px;
+}*/
+
+#p1{
+    text-align: left;
+}
+
+#p2{
+    text-align:center;
+}
+
+#p3{
+    text-align:right;
+}
+
+img{
+    float:right;
+}
+div{
+    border:1px solid;
+    width: 300px;
+}
+
+h1{
+    border: 1px solid;
+    background: yellowgreen;
+    width: 200px;
+
+    /*FIXED POSITION
+    position : fixed;
+    bottom: 0px;
+    left:0px;
+
+    /*RELATIVE POSITIONING
+    position: relative; relative to the initial position
+    bottom: 40px*/
+
+    
+}
+h2{
+    position:sticky;  /*sticks even when scrolling*/
+    top:0px
+}
+
+h3{
+    position:static;    /*default position*/
+}
